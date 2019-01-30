@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\obj\Debug\Funpgm1.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\obj\Debug\Funpgm1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\bin\Debug\Funpgm1.exe.config
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\bin\Debug\Funpgm1.exe
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\bin\Debug\Funpgm1.pdb
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\obj\Debug\Funpgm1.exe
+C:\Users\Admin\Desktop\bridgelabs\Functional\Funpgm1\Funpgm1\obj\Debug\Funpgm1.pdb
