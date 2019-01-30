@@ -1,8 +1,21 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Addstozero.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
+
+    /// <summary>
+    /// class for Adds to zero
+    /// </summary>
     public class Addstozero
     {
+        /// <summary>
+        /// a method to sum the 3 integers
+        /// </summary>
         public void Sumof3integers()
         {
             try
@@ -44,15 +57,13 @@
                         }
                     }
                 }
+
                 Console.ReadLine();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-
             }
-            }
-       
+            }  
     }
     }
-

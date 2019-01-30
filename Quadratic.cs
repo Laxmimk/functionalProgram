@@ -1,8 +1,21 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Quadratic.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
+
+    /// <summary>
+    /// class quadratic 
+    /// </summary>
     public class Quadratic
     {
+        /// <summary>
+        /// a method to find the roots of the quadratic equation 
+        /// </summary>
         public void Rootsofeqn()
         {
             try
@@ -16,7 +29,7 @@
                 b = Utility.Getinteger();
                 Console.WriteLine("Enter the value of c");
                 c = Utility.Getinteger();
-                delta = b * b - 4 * a * c;
+                delta = (b * b) - (4 * a * c);
                 if (delta == 0)
                 {
                     Console.WriteLine("Both the roots are equal");
@@ -41,7 +54,7 @@
                     Console.ReadLine();
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }

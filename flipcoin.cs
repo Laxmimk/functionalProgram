@@ -1,6 +1,16 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="flipcoin.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
+
+    /// <summary>
+    /// a class Flip coin
+    /// </summary>
     public class Flipcoin
     {
         /// <summary>
@@ -8,7 +18,7 @@
         /// </summary>
         public void Coinflip()
         {
-            int num;
+            double num;
             int head = 0;
             int tail = 0;
             try
@@ -33,12 +43,15 @@
                             head++;
                         }
                     }
-                    Console.WriteLine(tail);
+
+                    Console.WriteLine("the number of tails are " + tail);
+                    Console.WriteLine("the number of heads are " + head);
                     //// finding the percentage of tails and heads 
-                    int tailpercentage = (tail * 100) / num;
-                    int headpercentage = (head * 100) / num;
+                    double tailpercentage = (tail * 100) / num;
+                    double headpercentage = (head * 100) / num;
                     Console.WriteLine("the percentage of tail is " + tailpercentage);
                     Console.WriteLine("the percentage of head is " + headpercentage);
+                    Console.ReadLine();
                 }
                 else
                 {
@@ -50,8 +63,5 @@
                 Console.WriteLine(e.Message);
             }
         }
-
-
     }
     }
-

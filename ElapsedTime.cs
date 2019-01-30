@@ -1,10 +1,22 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="ElapsedTime.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
     using System.Diagnostics;
 
-   public class ElapsedTime
+    /// <summary>
+    /// class for finding an elapsed time
+    /// </summary>
+    public class ElapsedTime
     {
+        /// <summary>
+        /// a method stopwatch to calculate the elapsed time
+        /// </summary>
         public void Stopwatch()
         {
             try
@@ -29,9 +41,8 @@
                 ////printing the elapse time
                 Console.WriteLine("elapsed time is " + stopwatch.Elapsed);
                 Console.ReadLine();
-
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }

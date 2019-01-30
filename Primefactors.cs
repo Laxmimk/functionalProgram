@@ -1,14 +1,29 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Primefactors.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
+
+    /// <summary>
+    /// class prime factors 
+    /// </summary>
     public class Primefactors
     {
+        /// <summary>
+        /// a method to find all the prime factors of a given number
+        /// </summary>
         public void Findprimefactors()
         {
-                try
+            try
+            {
+                Console.WriteLine("enter number to find prime factors");
+                int number = Utility.Getinteger();
+                if (number > 0)
                 {
-                    Console.WriteLine("enter number to find prime factors");
-                    int number = Utility.Getinteger();
                     for (int i = 1; i <= number; i++)
                     {
                         int count = 0;
@@ -38,13 +53,16 @@
 
                     Console.ReadLine();
                 }
-                catch (Exception e)
+                else
                 {
-                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Enter the valid input");
+                    Console.ReadLine();
                 }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             }
         }
     }
-
-    
-

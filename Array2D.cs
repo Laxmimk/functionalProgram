@@ -1,15 +1,25 @@
-﻿namespace Funpgm1
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Array2D.cs" company="Bridgelabz">
+//   Copyright © 2018 Company
+// </copyright>
+// <creator name="Laxmi K"/>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Funpgm1
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+
     /// <summary>
     /// to print a 2D array
     /// </summary>
     public class Array2D
     {
+        /// <summary>
+        /// a method to find the 2D array
+        /// </summary>
         public void TwoDArray()
         {
             try
