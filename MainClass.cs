@@ -35,8 +35,9 @@ namespace Funpgm1
                     Console.WriteLine("Enter 9 For Adds to zero");
                     Console.WriteLine("Enter 10 For String permutations");
                     Console.WriteLine("Enter 11 For Elapsed time");
-                    Console.WriteLine("Enter 12 For Quadratic");                  
-                        int num = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter 12 For Quadratic");
+                    Console.WriteLine("Enter 13 For Tic tac toe");
+                    int num = Convert.ToInt32(Console.ReadLine());
                         switch (num)
                         {
                             case 1:
@@ -90,6 +91,13 @@ namespace Funpgm1
                                 Quadratic q = new Quadratic();
                                 q.Rootsofeqn();
                                 break;
+                        case 13:
+                            TicTacToe tt = new TicTacToe();
+                            tt.Player();
+                            tt.Computer();
+                            tt.DisplayGame();
+                            break;
+
                         default:
                             Console.WriteLine("Please enter the valid input");
                             Console.ReadLine();

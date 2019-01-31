@@ -23,18 +23,13 @@ namespace Parameters
         /// <param name="args">The arguments.</param>
         public static void Main(string[] args)
         {
-            string n;
-            Console.WriteLine("Enter the number to get the input");
-            n = Console.ReadLine();
-            //// to write the repetative pgm 
-            if (Utility.Integerof(n) == true)
+            string str = null;
+            do
             {
-                Console.WriteLine("Please enter the proper input");
-                Console.ReadLine();
-            }
-            else
-            {
-                int num = Convert.ToInt32(n);
+                Console.WriteLine("Enter 1 For Power of 2");
+                Console.WriteLine("Enter 2 For Euclidian distance");
+                Console.WriteLine("Enter 3 For Wind chill");
+                int num = Convert.ToInt32(Console.ReadLine());
 
                 switch (num)
                 {
@@ -57,8 +52,16 @@ namespace Parameters
                         double v = Convert.ToDouble(args[1]);
                         w.Findwindchill(t, v);
                         break;
+                    default:
+                        Console.WriteLine("Please enter the valid input");
+                        Console.ReadLine();
+                        break;
                 }
             }
+            while (str != "n");
+            Console.ReadLine();
         }
+            }
+        
     }
-}
+
